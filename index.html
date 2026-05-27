@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gloock&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <span class="brand">K&amp;J</span>
+            <div class="nav-links">
+                <a href="#story">Our Story</a>
+                <a href="#details">The Details</a>
+                <a href="#rsvp">RSVP</a>
+                <a href="#gifts">Gifts</a>
+            </div>
+            <button class="menu-button" aria-expanded="false" aria-label="Open menu" type="button">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Full Width -->
+    <section class="hero">
+        <div class="hero-media">
+            <img alt="Kylle &amp; Joyce Hero"
+                data-alt="Cinematic landscape photo of an elegant couple in a romantic embrace, golden hour lighting."
+                src="/assets/img/IMG_8971.webp" />
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <p class="eyebrow hero-eyebrow">Save the Date</p>
+            <h1>Kylle &amp; Joyce</h1>
+            <div class="hero-divider"></div>
+            <div class="countdown" id="countdown" aria-label="Countdown to the wedding">
+                <div class="countdown-card">
+                    <span class="countdown-value" data-unit="days">000</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-card">
+                    <span class="countdown-value" data-unit="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-card">
+                    <span class="countdown-value" data-unit="minutes">00</span>
+                    <span class="countdown-label">Mins</span>
+                </div>
+                <div class="countdown-card">
+                    <span class="countdown-value" data-unit="seconds">00</span>
+                    <span class="countdown-label">Secs</span>
+                </div>
+            </div>
+            <p class="hero-date">August 15, 2026</p>
+            <a class="primary-button" href="#rsvp">RSVP NOW</a>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="section story-section" id="story">
+        <div class="story-grid">
+            <div class="story-copy">
+                <span class="eyebrow">THE JOURNEY</span>
+                <h2>Where Forever Begins</h2>
+                <div class="prose">
+                    <p>It began with a simple conversation that evolved into a lifetime of shared dreams. Kylle and
+                        Joyce found in each other a companion for every season—a steady hand in the storm and a partner
+                        in joy.</p>
+                    <p>Our story isn't just about the big moments, but the quiet ones in between. The shared coffee
+                        mornings, the spontaneous road trips, and the unwavering support that defines our bond.</p>
+                </div>
+            </div>
+            <div class="story-image-frame">
+                <div class="image-outline"></div>
+                <img alt="Our Story"
+                    data-alt="A minimalist, high-fashion editorial photograph of a couple sitting closely together on a vintage neutral-toned sofa."
+                    src="/assets/img/IMG_8958.webp" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section film-section" id="pre-wedding-film">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">CINEMATIC MOMENTS</span>
+                <h2>The Pre-Wedding Film</h2>
+                <p>Capturing the essence of our journey and the promise of our future together.</p>
+            </div>
+            <div class="video-preview">
+                <video class="pre-wedding-video" preload="metadata" playsinline>
+                    <source src="assets/videos/kylle_joyce_std.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <button class="play-button" type="button" aria-label="Play pre-wedding film">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </button>
+                <div class="video-tint"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section: Where & When -->
+    <section class="section details-section" id="details">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Where &amp; When</h2>
+                <p class="eyebrow">JOIN US IN CELEBRATION</p>
+            </div>
+            <div class="details-grid">
+                <article class="detail-card">
+                    <span class="material-symbols-outlined detail-icon">church</span>
+                    <h3>The Ceremony</h3>
+                    <p>
+                        Arzobispado de Pampanga (Chancery)<br />
+                        San Fernando, Pampanga
+                    </p>
+                    <div class="detail-meta">
+                        <p class="eyebrow">2:00 PM CALL TIME</p>
+                        <p><strong>3:00 PM WEDDING RITES</strong></p>
+                    </div>
+                </article>
+
+                <article class="detail-card">
+                    <span class="material-symbols-outlined detail-icon">celebration</span>
+                    <h3>The Celebration</h3>
+                    <p>
+                        Arzobispado de Pampanga Function Hall<br />
+                        At the back of the Chancery
+                    </p>
+                    <div class="detail-meta">
+                        <p class="eyebrow">RECEPTION</p>
+                        <p><strong>DINNER AND FESTIVITIES TO FOLLOW</strong></p>
+                    </div>
+                </article>
+
+                <article class="detail-card">
+                    <span class="material-symbols-outlined detail-icon">checkroom</span>
+                    <h3>Dress Code</h3>
+                    <p>
+                        Please come in semi-formal attire. Gentlemen may wear polo, long sleeves, coat, suit, and
+                        slacks. Ladies may wear dresses, coordinates, or long sleeves.
+                    </p>
+                    <div class="detail-meta">
+                        <p class="eyebrow">COLOR PALETTE</p>
+                        <p><strong>CHAMPAGNE, NUDE, KHAKI</strong></p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="section rsvp-section" id="rsvp">
+        <div class="rsvp-grid">
+            <div class="rsvp-copy">
+                <h2>Confirm Your Attendance</h2>
+                <p>We look forward to celebrating this beautiful day with you. To confirm your attendance, please
+                    contact our wedding coordinator.</p>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <span class="material-symbols-outlined">call</span>
+                        <span>09289721820</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-symbols-outlined">person</span>
+                        <span>Reymart Figueroa (Wedding Coordinator)</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="rsvp-form">
+                <div class="form-field">
+                    <input id="name" placeholder=" " type="text" />
+                    <label for="name">FULL NAME</label>
+                </div>
+                <div class="form-field">
+                    <input id="email" placeholder=" " type="email" />
+                    <label for="email">EMAIL ADDRESS</label>
+                </div>
+                <div>
+                    <span class="eyebrow form-question">WILL YOU BE ATTENDING?</span>
+                    <div class="response-buttons">
+                        <button class="outline-button accept-button" type="button">JOYFULLY ACCEPT</button>
+                        <button class="outline-button decline-button" type="button">REGRETFULLY DECLINE</button>
+                    </div>
+                </div>
+                <button class="submit-button" type="submit">SEND RSVP</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section gifts-section" id="gifts">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">GIFT PREFERENCE</span>
+                <h2>With Grateful Hearts</h2>
+                <p>Your presence is our greatest gift. However, should you wish to honor us with a gift, a monetary
+                    contribution would be greatly appreciated as we build our new life together. Bank account and GCash
+                    details will be provided.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span class="eyebrow footer-brand">K&amp;J</span>
+            <div class="footer-links">
+                <a href="#">Travel Info</a>
+                <a href="#">Wedding Party</a>
+                <a href="#gifts">Gift Preference</a>
+                <a href="#rsvp">Contact</a>
+            </div>
+            <p>© 2026 Kylle &amp; Joyce. Forever Begins.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
