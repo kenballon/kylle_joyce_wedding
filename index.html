@@ -5,14 +5,16 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Google Fonts:::START -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gloock&family=Manrope:wght@200..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gloock&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
+    <!-- Google Fonts:::END -->
     <link href="styles.css" rel="stylesheet" />
 </head>
 
@@ -99,10 +101,11 @@
                 <p>Capturing the essence of our journey and the promise of our future together.</p>
             </div>
             <div class="video-preview">
-                <video class="pre-wedding-video" preload="metadata" playsinline>
-                    <source src="assets/videos/kylle_joyce_std.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                <iframe class="pre-wedding-video"
+                    src="https://www.youtube.com/embed/YMKjUxJa6C4?rel=0&modestbranding=1&playsinline=1"
+                    title="Kylle and Joyce pre-wedding film"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
                 <button class="play-button" type="button" aria-label="Play pre-wedding film">
                     <span class="material-symbols-outlined">play_arrow</span>
                 </button>
@@ -163,41 +166,24 @@
 
     <!-- RSVP Section -->
     <section class="section rsvp-section" id="rsvp">
-        <div class="rsvp-grid">
+        <div class="rsvp-wrapper">
             <div class="rsvp-copy">
                 <h2>Confirm Your Attendance</h2>
                 <p>We look forward to celebrating this beautiful day with you. To confirm your attendance, please
                     contact our wedding coordinator.</p>
                 <div class="contact-list">
+
+                    <div class="contact-item">
+                        <span>Reymart Figueroa</span>
+                        <span>(Wedding Coordinator)</span>
+                    </div>
                     <div class="contact-item">
                         <span class="material-symbols-outlined">call</span>
                         <span>09289721820</span>
                     </div>
-                    <div class="contact-item">
-                        <span class="material-symbols-outlined">person</span>
-                        <span>Reymart Figueroa (Wedding Coordinator)</span>
-                    </div>
                 </div>
             </div>
 
-            <form class="rsvp-form">
-                <div class="form-field">
-                    <input id="name" placeholder=" " type="text" />
-                    <label for="name">FULL NAME</label>
-                </div>
-                <div class="form-field">
-                    <input id="email" placeholder=" " type="email" />
-                    <label for="email">EMAIL ADDRESS</label>
-                </div>
-                <div>
-                    <span class="eyebrow form-question">WILL YOU BE ATTENDING?</span>
-                    <div class="response-buttons">
-                        <button class="outline-button accept-button" type="button">JOYFULLY ACCEPT</button>
-                        <button class="outline-button decline-button" type="button">REGRETFULLY DECLINE</button>
-                    </div>
-                </div>
-                <button class="submit-button" type="submit">SEND RSVP</button>
-            </form>
         </div>
     </section>
 

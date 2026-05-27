@@ -63,21 +63,12 @@ const playButton = document.querySelector(".play-button");
 
 if (videoPreview && preWeddingVideo && playButton) {
     playButton.addEventListener("click", () => {
-        preWeddingVideo.play();
-    });
-
-    preWeddingVideo.addEventListener("play", () => {
         videoPreview.classList.add("is-playing");
-        preWeddingVideo.setAttribute("controls", "");
-    });
 
-    preWeddingVideo.addEventListener("pause", () => {
-        videoPreview.classList.remove("is-playing");
-        preWeddingVideo.removeAttribute("controls");
-    });
+        const videoUrl = new URL(preWeddingVideo.src);
+        videoUrl.searchParams.set("autoplay", "1");
+        preWeddingVideo.src = videoUrl.toString();
 
-    preWeddingVideo.addEventListener("ended", () => {
-        videoPreview.classList.remove("is-playing");
-        preWeddingVideo.removeAttribute("controls");
+        playButton.setAttribute("aria-label", "Pre-wedding film is playing");
     });
 }
