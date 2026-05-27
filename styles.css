@@ -517,18 +517,25 @@ h3 {
     width: 100%;
     padding-top: 24px;
     border-top: 1px solid var(--outline-light);
+
+    .detail-meta .eyebrow {
+        color: var(--primary);
+    }
+
+    .detail-meta p:last-child {
+        margin-top: 4px;
+        color: var(--on-surface-variant);
+        font-size: 16px;
+        line-height: 1.6;
+    }
 }
 
-.detail-meta .eyebrow {
-    color: var(--primary);
+.detail-meta.section {
+    border-block: 2px dotted var(--outline-light);
+    padding-block: 1.5rem;
+    margin-block-end: 2rem;
 }
 
-.detail-meta p:last-child {
-    margin-top: 4px;
-    color: var(--on-surface-variant);
-    font-size: 16px;
-    line-height: 1.6;
-}
 
 .section.rsvp-section {
     display: flex;
@@ -736,4 +743,33 @@ h3 {
     .details-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section.dress-codes {
+    background-color: var(--surface-variant);
+    width: 100%;
+}
+
+.genders_dress_code {
+    margin-block-end: 2rem;
+}
+
+.card-item {
+    min-width: 150px;
+    min-height: 350px;
+    background-color: white;
+    border-radius: 4px;
 }
