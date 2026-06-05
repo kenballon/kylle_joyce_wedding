@@ -762,3 +762,15 @@ h3 {
 .detail-meta.section {
   text-align: center;
 }
+
+.qrcode {
+  height: 200px;
+  margin: auto;
+}
+
+.gifts-section {
+  padding-bottom: 60px;
+}
+/* .accounts {
+  display: flex;
+} */
