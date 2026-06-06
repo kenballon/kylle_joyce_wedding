@@ -571,7 +571,8 @@ h3 {
 
 .site-footer {
   width: 100%;
-  padding-block: var(--section-padding);
+  padding-block-start: var(--section-padding);
+  padding-block-end: .5rem;
   background-color: var(--surface-container-low);
 }
 
@@ -582,6 +583,8 @@ h3 {
   gap: 32px;
   padding-inline: var(--mobile-margin);
   text-align: center;
+
+
 }
 
 .footer-brand {
@@ -608,11 +611,14 @@ h3 {
 }
 
 .site-footer p {
-  color: var(--secondary);
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: 300;
   line-height: 1.6;
+  color: var(--secondary);
   opacity: 0.8;
   transition: opacity 300ms ease;
+
+  font-family: var(--font-brand);
 }
 
 .site-footer p:hover {
