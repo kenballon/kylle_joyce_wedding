@@ -56,3 +56,53 @@ if (siteNav && menuButton) {
         link.addEventListener("click", () => setMenuOpen(false));
     });
 }
+
+const qrImages = document.querySelectorAll(".qr_code_img");
+const qrModal = document.querySelector("#qrModal");
+const qrModalImage = document.querySelector("#qrModalImage");
+const qrModalClose = document.querySelector(".qr-modal__close");
+const qrModalBackdrop = document.querySelector(".qr-modal__backdrop");
+
+function openQrModal(image) {
+    if (!qrModal || !qrModalImage) {
+        return;
+    }
+
+    qrModalImage.src = image.currentSrc || image.src;
+    qrModalImage.alt = image.alt;
+    qrModal.classList.add("is-open");
+    qrModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("qr-modal-open");
+    qrModalClose?.focus();
+}
+
+function closeQrModal() {
+    if (!qrModal || !qrModalImage) {
+        return;
+    }
+
+    qrModal.classList.remove("is-open");
+    qrModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("qr-modal-open");
+    qrModalImage.src = "";
+    qrModalImage.alt = "";
+}
+
+qrImages.forEach((image) => {
+    image.addEventListener("click", () => openQrModal(image));
+    image.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openQrModal(image);
+        }
+    });
+});
+
+qrModalClose?.addEventListener("click", closeQrModal);
+qrModalBackdrop?.addEventListener("click", closeQrModal);
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && qrModal?.classList.contains("is-open")) {
+        closeQrModal();
+    }
+});
