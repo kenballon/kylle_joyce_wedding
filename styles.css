@@ -201,9 +201,11 @@ h3 {
 }
 
 .hero-gradient {
-  background: linear-gradient(to bottom,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(0, 0, 0, 0.4) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
 }
 
 .hero-content {
@@ -447,7 +449,7 @@ h3 {
   margin-bottom: 16px;
 }
 
-.detail-card>p {
+.detail-card > p {
   margin-bottom: 24px;
   color: var(--on-surface-variant);
   font-size: 16px;
@@ -505,7 +507,7 @@ h3 {
       gap: 16px;
       padding: 1.25rem;
       background-color: white;
-      border: 1px solid hsla(150, 5%, 45%, 0.30);
+      border: 1px solid hsla(150, 5%, 45%, 0.3);
       border-radius: 4px;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
         rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -552,7 +554,7 @@ h3 {
       }
 
       .contact_number_wrapper {
-        >div {
+        > div {
           span {
             font-size: 1rem;
 
@@ -571,7 +573,7 @@ h3 {
 .site-footer {
   width: 100%;
   padding-block-start: var(--section-padding);
-  padding-block-end: .5rem;
+  padding-block-end: 0.5rem;
   background-color: var(--surface-container-low);
 }
 
@@ -582,8 +584,6 @@ h3 {
   gap: 32px;
   padding-inline: var(--mobile-margin);
   text-align: center;
-
-
 }
 
 .footer-brand {
@@ -802,12 +802,10 @@ h3 {
 .color_circles_wrapper {
   padding-block: 1.5rem;
 
-  >div {
+  > div {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-
-
 
     &:first-child {
       background-color: var(--color-champagne);
@@ -824,7 +822,6 @@ h3 {
 }
 
 .accounts {
-
   .qr_code_img {
     cursor: zoom-in;
     border-radius: 8px;
@@ -869,7 +866,6 @@ h3 {
     max-height: max-content;
     object-fit: contain;
   }
-
 }
 
 body.qr-modal-open {
@@ -963,4 +959,9 @@ body.qr-modal-open {
     top: 8px;
     right: 8px;
   }
+}
+
+.guest-dress-code {
+  font-style: italic;
+  font-weight: bold;
 }
