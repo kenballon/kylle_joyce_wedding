@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Kylle & Joyce's Wedding" />
+    <meta
+      property="og:description"
+      content="Join us in celebration as Kylle and Joyce exchange vows on August 15, 2026."
+    />
+    <meta
+      property="og:image"
+      content="https://kylleandjoyce.netlify.app/assets/img/IMG_8971.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kylleandjoyce.netlify.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://kylleandjoyce.netlify.app/assets/img/IMG_8971.webp"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Kylle & Joyce's Wedding" />
-  <meta property="og:description"
-    content="Join us in celebration as Kylle and Joyce exchange vows on August 15, 2026." />
-  <meta property="og:image" content="https://kylleandjoyce.netlify.app/assets/img/IMG_8971.webp" />  
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://kylleandjoyce.netlify.app/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://kylleandjoyce.netlify.app/assets/img/IMG_8971.webp" />
-
-
-   <!-- <meta property="og:title" content="Kylle & Joyce Save the Date" />
+    <!-- <meta property="og:title" content="Kylle & Joyce Save the Date" />
   <meta property="og:description"
     content="Join us in celebration as Kylle and Joyce exchange vows on August 15, 2026." />
   <meta property="og:image" content="https://kylleandjoyce.netlify.app/assets/img/thumbnail.JPG" />  
@@ -24,477 +30,588 @@
   <meta property="og:url" content="https://kylleandjoyce.netlify.app/" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://kylleandjoyce.netlify.app/assets/img/thumbnail.JPG" /> -->
-  
 
-  <!-- End Open Graph Meta Tags -->
-  <!-- Google Fonts:::START -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gloock&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-    rel="stylesheet" />
-  <!-- Google Fonts:::END -->
-  <link href="styles.css" rel="stylesheet" />
-</head>
+    <!-- End Open Graph Meta Tags -->
+    <!-- Google Fonts:::START -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gloock&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts:::END -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
 
-<body>
-  <!-- Top Navigation Bar -->
-  <nav class="site-nav">
-    <div class="nav-inner">
-      <a href="#"><span class="brand">K&amp;J</span></a>
-      <div class="nav-links">
-        <a href="#story">Our Story</a>
-        <a href="#details">The Details</a>
-        <a href="#rsvp">RSVP</a>
-        <a href="#gifts">Gifts</a>
-        <a href="#dresscode">Dress</a>
-        <a href="#faq">FAQ</a>
-      </div>
-      <button class="menu-button" aria-expanded="false" aria-label="Open menu" type="button">
-        <span class="material-symbols-outlined">menu</span>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Hero Section: Full Width -->
-  <section class="hero">
-    <div class="hero-media">
-      <img alt="Kylle &amp; Joyce Hero"
-        data-alt="Cinematic landscape photo of an elegant couple in a romantic embrace, golden hour lighting."
-        src="/assets/img/IMG_8971.webp" />
-      <div class="hero-gradient"></div>
-    </div>
-    <div class="hero-content">
-      <p class="eyebrow hero-eyebrow">Save the Date</p>
-      <h1>Kylle &amp; Joyce</h1>
-      <div class="hero-divider"></div>
-      <div class="countdown" id="countdown" aria-label="Countdown to the wedding">
-        <div class="countdown-card">
-          <span class="countdown-value" data-unit="days">000</span>
-          <span class="countdown-label">Days</span>
+  <body>
+    <!-- Top Navigation Bar -->
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a href="#"><span class="brand">K&amp;J</span></a>
+        <div class="nav-links">
+          <a href="#story">Our Story</a>
+          <a href="#details">The Details</a>
+          <a href="#rsvp">RSVP</a>
+          <a href="#gifts">Gifts</a>
+          <a href="#dresscode">Dress</a>
+          <a href="#faq">FAQ</a>
         </div>
-        <div class="countdown-card">
-          <span class="countdown-value" data-unit="hours">00</span>
-          <span class="countdown-label">Hours</span>
-        </div>
-        <div class="countdown-card">
-          <span class="countdown-value" data-unit="minutes">00</span>
-          <span class="countdown-label">Mins</span>
-        </div>
-        <div class="countdown-card">
-          <span class="countdown-value" data-unit="seconds">00</span>
-          <span class="countdown-label">Secs</span>
-        </div>
+        <button
+          class="menu-button"
+          aria-expanded="false"
+          aria-label="Open menu"
+          type="button"
+        >
+          <span class="material-symbols-outlined">menu</span>
+        </button>
       </div>
-      <p class="hero-date">August 15, 2026</p>
-      <a class="primary-button" href="#rsvp">RSVP NOW</a>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Our Story Section -->
-  <section class="section story-section" id="story">
-    <div class="story-grid">
-      <div class="story-copy">
-        <span class="eyebrow">THE JOURNEY</span>
-        <h2>Where Forever Begins</h2>
-        <div class="prose">
-          <p>
-            What began as a simple conversation blossomed into a love story
-            woven with shared dreams, cherished memories, and a promise of
-            forever. In each other, Kylle and Joyce found more than a
-            partner—they found a safe haven, a constant source of strength,
-            and a soulmate to walk beside through every season of life.
-          </p>
-          <p>
-            Ours is a story not only of grand milestones, but of the beautiful
-            moments in between—the lingering conversations over morning
-            coffee, the spontaneous adventures that led us to unexpected
-            places, and the quiet acts of love and support that have deepened
-            our bond day by day.
-          </p>
-          <p>
-            Through every laugh, every challenge, and every dream pursued
-            together, we have discovered that the greatest journey is not
-            where life takes us, but who we share it with. And now, with
-            grateful hearts and unwavering love, we look forward to the next
-            chapter of our forever. ❤️
-          </p>
-        </div>
+    <!-- Hero Section: Full Width -->
+    <section class="hero">
+      <div class="hero-media">
+        <img
+          alt="Kylle &amp; Joyce Hero"
+          data-alt="Cinematic landscape photo of an elegant couple in a romantic embrace, golden hour lighting."
+          src="/assets/img/IMG_8971.webp"
+        />
+        <div class="hero-gradient"></div>
       </div>
-      <div class="story-image-frame">
-        <div class="image-outline"></div>
-        <img alt="Our Story"
-          data-alt="A minimalist, high-fashion editorial photograph of a couple sitting closely together on a vintage neutral-toned sofa."
-          src="/assets/img/IMG_8958.webp" />
-      </div>
-    </div>
-  </section>
-
-  <section class="section film-section" id="pre-wedding-film">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">CINEMATIC MOMENTS</span>
-        <h2>The Pre-Wedding Film</h2>
-        <p>
-          Capturing the essence of our journey and the promise of our future
-          together.
-        </p>
-      </div>
-      <div class="video-preview">
-        <iframe class="pre-wedding-video" src="https://www.youtube.com/embed/gniZmjc1LtM?si=lEQ0_W1YwXfPKWBX"
-          title="Kylle and Joyce pre-wedding film"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- Details Section: Where & When -->
-  <section class="section details-section" id="details">
-    <div class="container">
-      <div class="section-heading">
-        <h2>Where &amp; When</h2>
-        <p class="eyebrow">JOIN US IN CELEBRATION</p>
-      </div>
-      <div class="details-grid">
-        <article class="detail-card">
-          <span class="material-symbols-outlined detail-icon">church</span>
-          <h3>The Ceremony</h3>
-          <p>
-            Arzobispado de Pampanga (Chancery)<br />
-            San Fernando, Pampanga
-          </p>
-          <div class="detail-meta">
-            <p class="eyebrow">2:00 PM CALL TIME</p>
-            <p><strong>3:00 PM WEDDING RITES</strong></p>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">Save the Date</p>
+        <h1>Kylle &amp; Joyce</h1>
+        <div class="hero-divider"></div>
+        <div
+          class="countdown"
+          id="countdown"
+          aria-label="Countdown to the wedding"
+        >
+          <div class="countdown-card">
+            <span class="countdown-value" data-unit="days">000</span>
+            <span class="countdown-label">Days</span>
           </div>
-        </article>
-
-        <article class="detail-card">
-          <span class="material-symbols-outlined detail-icon">celebration</span>
-          <h3>The Celebration</h3>
-          <p>
-            Arzobispado de Pampanga Function Hall<br />
-            At the back of the Chancery
-          </p>
-          <div class="detail-meta">
-            <p class="eyebrow">RECEPTION</p>
-            <p><strong>DINNER AND FESTIVITIES TO FOLLOW</strong></p>
+          <div class="countdown-card">
+            <span class="countdown-value" data-unit="hours">00</span>
+            <span class="countdown-label">Hours</span>
           </div>
-        </article>
+          <div class="countdown-card">
+            <span class="countdown-value" data-unit="minutes">00</span>
+            <span class="countdown-label">Mins</span>
+          </div>
+          <div class="countdown-card">
+            <span class="countdown-value" data-unit="seconds">00</span>
+            <span class="countdown-label">Secs</span>
+          </div>
+        </div>
+        <p class="hero-date">August 15, 2026</p>
+        <a class="primary-button" href="#rsvp">RSVP NOW</a>
+      </div>
+    </section>
 
-        <article class="detail-card">
-          <span class="material-symbols-outlined detail-icon">checkroom</span>
-          <a href="#dresscode">
-            <h3>Dress Code</h3>
-          </a>
+    <!-- Our Story Section -->
+    <section class="section story-section" id="story">
+      <div class="story-grid">
+        <div class="story-copy">
+          <span class="eyebrow">THE JOURNEY</span>
+          <h2>Where Forever Begins</h2>
+          <div class="prose">
+            <p>
+              What began as a simple conversation blossomed into a love story
+              woven with shared dreams, cherished memories, and a promise of
+              forever. In each other, Kylle and Joyce found more than a
+              partner—they found a safe haven, a constant source of strength,
+              and a soulmate to walk beside through every season of life.
+            </p>
+            <p>
+              Ours is a story not only of grand milestones, but of the beautiful
+              moments in between—the lingering conversations over morning
+              coffee, the spontaneous adventures that led us to unexpected
+              places, and the quiet acts of love and support that have deepened
+              our bond day by day.
+            </p>
+            <p>
+              Through every laugh, every challenge, and every dream pursued
+              together, we have discovered that the greatest journey is not
+              where life takes us, but who we share it with. And now, with
+              grateful hearts and unwavering love, we look forward to the next
+              chapter of our forever. ❤️
+            </p>
+          </div>
+        </div>
+        <div class="story-image-frame">
+          <div class="image-outline"></div>
+          <img
+            alt="Our Story"
+            data-alt="A minimalist, high-fashion editorial photograph of a couple sitting closely together on a vintage neutral-toned sofa."
+            src="/assets/img/IMG_8958.webp"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section film-section" id="pre-wedding-film">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">CINEMATIC MOMENTS</span>
+          <h2>The Pre-Wedding Film</h2>
+          <p>
+            Capturing the essence of our journey and the promise of our future
+            together.
+          </p>
+        </div>
+        <div class="video-preview">
+          <iframe
+            class="pre-wedding-video"
+            src="https://www.youtube.com/embed/gniZmjc1LtM?si=lEQ0_W1YwXfPKWBX"
+            title="Kylle and Joyce pre-wedding film"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details Section: Where & When -->
+    <section class="section details-section" id="details">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Where &amp; When</h2>
+          <p class="eyebrow">JOIN US IN CELEBRATION</p>
+        </div>
+        <div class="details-grid">
+          <article class="detail-card">
+            <span class="material-symbols-outlined detail-icon">church</span>
+            <h3>The Ceremony</h3>
+            <p>
+              Arzobispado de Pampanga (Chancery)<br />
+              San Fernando, Pampanga
+            </p>
+            <div class="detail-meta">
+              <p class="eyebrow">2:00 PM CALL TIME</p>
+              <p><strong>3:00 PM WEDDING RITES</strong></p>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <span class="material-symbols-outlined detail-icon"
+              >celebration</span
+            >
+            <h3>The Celebration</h3>
+            <p>
+              Arzobispado de Pampanga Function Hall<br />
+              At the back of the Chancery
+            </p>
+            <div class="detail-meta">
+              <p class="eyebrow">RECEPTION</p>
+              <p><strong>DINNER AND FESTIVITIES TO FOLLOW</strong></p>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <span class="material-symbols-outlined detail-icon">checkroom</span>
+            <a href="#dresscode">
+              <h3>Dress Code</h3>
+            </a>
+            <p>
+              Please come in semi-formal attire. Gentlemen may wear polo, long
+              sleeves, coat, suit, and slacks. Ladies may wear dresses,
+              coordinates, or long sleeves.
+            </p>
+            <div class="detail-meta">
+              <p class="eyebrow">COLOR PALETTE</p>
+              <p><strong>CHAMPAGNE, NUDE, KHAKI</strong></p>
+              <div
+                class="color_circles_wrapper flex items-center content-center gap-3"
+              >
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <a class="primary-button" href="#dresscode"
+                >SEE WEAR INSPIRATION >></a
+              >
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <span class="material-symbols-outlined">question_mark</span>
+            <h3>FAQ</h3>
+            <p>Got any question? The answer might be here!</p>
+            <div class="detail-meta">
+              <p class="eyebrow">QUESTIONS</p>
+              <!-- <p><strong>DINNER AND FESTIVITIES TO FOLLOW</strong></p> -->
+              <a class="primary-button" href="#faq"
+                >SEE FREQUENTLY ASKED QUESTIONS >></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="section rsvp-section" id="rsvp">
+      <div class="rsvp-wrapper">
+        <div class="rsvp-copy">
+          <h2 class="text-center">Confirm Your Attendance</h2>
+          <p>
+            In consideration of our venue capacity, one seat has been reserved
+            exclusively for you. We appreciate your understanding.
+          </p>
+          <p>
+            To help us prepare for your presence, please contact the groom to
+            confirm your attendance and table arrangement. We look forward to
+            celebrating this beautiful day with you.
+          </p>
+          <div class="contact-list">
+            <div class="contact-item">
+              <div class="flex">
+                <span class="material-symbols-outlined">person</span>
+              </div>
+              <div class="persona_details">
+                <div class="persona_name">Kylle Tiamzon</div>
+                <div class="persona_role">(Groom)</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact_number_wrapper flex flex-column gap-3">
+                <div class="flex items-center gap-1">
+                  <span class="material-symbols-outlined">call</span>
+                  <span>
+                    <a href="tel:09277354765">09277354765</a>
+                  </span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <span class="material-symbols-outlined">chat</span>
+                  <span>
+                    <a href="sms:09277354765">09277354765</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gifts-section" id="gifts">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">GIFT PREFERENCE</span>
+          <h2>With Grateful Hearts</h2>
+          <p>
+            Your presence is our greatest gift. However, should you wish to
+            honor us with a gift, a monetary contribution would be greatly
+            appreciated as we build our new life together. Bank account and
+            GCash details will be provided.
+          </p>
+          <br />
+
+          <div class="accounts flex flex-column content-center items-center">
+            <div>
+              <img
+                src="/assets/img/BPIQRCODE.jpg"
+                alt="BPI QR Code"
+                class="qr_code_img"
+                role="button"
+                tabindex="0"
+                aria-label="Open larger BPI QR Code"
+              />
+              <article class="account_details_wrapper">
+                <div class="account_details_item">
+                  <span class="super_heading_label">Account Name</span>
+                  <h1>Kylle Jionelli Tiamzon</h1>
+                </div>
+
+                <div class="account_details_item">
+                  <span class="super_heading_label">BPI Account Number</span>
+                  <h2>4159126264</h2>
+                </div>
+              </article>
+            </div>
+
+            <div>
+              <img
+                src="/assets/img/gcash_cropped.jpg"
+                alt="GCash QR Code"
+                class="qr_code_img"
+                role="button"
+                tabindex="0"
+                aria-label="Open larger GCash QR Code"
+              />
+              <article class="account_details_wrapper">
+                <div class="account_details_item">
+                  <span class="super_heading_label">GCASH Account Name</span>
+                  <h1>KY**E JI*****I T.</h1>
+                </div>
+                <div class="account_details_item">
+                  <span class="super_heading_label">GCASH Account Number</span>
+                  <h1>09277354765</h1>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Account Name: Kylle Jionelli Tiamzon -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section dress-codes" id="dresscode">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">WHAT SHOULD WE WEAR?</span>
+          <h2>Dress Code</h2>
+          <div class="detail-meta section">
+            <p class="eyebrow">COLOR PALETTE</p>
+            <h3><strong>CHAMPAGNE, NUDE, KHAKI</strong></h3>
+            <div
+              class="color_circles_wrapper flex items-center content-center gap-3"
+            >
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
           <p>
             Please come in semi-formal attire. Gentlemen may wear polo, long
             sleeves, coat, suit, and slacks. Ladies may wear dresses,
             coordinates, or long sleeves.
           </p>
-          <div class="detail-meta">
-            <p class="eyebrow">COLOR PALETTE</p>
-            <p><strong>CHAMPAGNE, NUDE, KHAKI</strong></p>
-            <div class="color_circles_wrapper flex items-center content-center gap-3">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <a class="primary-button" href="#dresscode">SEE WEAR INSPIRATION >></a>
+        </div>
 
-          </div>
-        </article>
-
-        <article class="detail-card">
-          <span class="material-symbols-outlined">question_mark</span>
-          <h3>FAQ</h3>
-          <p>
-            Got any question? The answer might be here!
-          </p>
-          <div class="detail-meta">
-            <p class="eyebrow">QUESTIONS</p>
-            <!-- <p><strong>DINNER AND FESTIVITIES TO FOLLOW</strong></p> -->
-            <a class="primary-button" href="#faq">SEE FREQUENTLY ASKED QUESTIONS >></a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- RSVP Section -->
-  <section class="section rsvp-section" id="rsvp">
-    <div class="rsvp-wrapper">
-      <div class="rsvp-copy">
-        <h2 class="text-center">Confirm Your Attendance</h2>
-        <p>
-          In consideration of our venue capacity, one seat has been reserved
-          exclusively for you. We appreciate your understanding.
-        </p>
-        <p>
-          To help us prepare for your presence, please contact our wedding
-          coordinator to confirm your attendance and table arrangement. We
-          look forward to celebrating this beautiful day with you.
-        </p>
-        <div class="contact-list">
-          <div class="contact-item">
-            <div class="flex">
-              <span class="material-symbols-outlined">person</span>
+        <div class="genders_dress_code">
+          <!-- <h3 class="guest-dress-code">Male Principal Sponsors Dress Code</h3> -->
+          <h3>Male Principal Sponsors Wear Inspiration</h3>
+          <div class="cards_dress_code grid grid-cols-4 gap-3">
+            <div class="card-item">
+              <img
+                src="/assets/img/barong1.webp"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
             </div>
-            <div class="persona_details">
-              <div class="persona_name">Kylle Tiamzon</div>
-              <div class="persona_role">(Groom)</div>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact_number_wrapper flex flex-column gap-3">
-              <div class="flex items-center gap-1">
-                <span class="material-symbols-outlined">call</span>
-                <span>
-                  <a href="tel:09057322871">09277354765</a>
-                </span>
-              </div>
-              <div class="flex items-center gap-1">
-                <span class="material-symbols-outlined">chat</span>
-                <span>
-                  <a href="sms:09057322871">09277354765</a>
-                </span>
-              </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/barong2.webp"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="section gifts-section" id="gifts">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">GIFT PREFERENCE</span>
-        <h2>With Grateful Hearts</h2>
-        <p>
-          Your presence is our greatest gift. However, should you wish to
-          honor us with a gift, a monetary contribution would be greatly
-          appreciated as we build our new life together. Bank account and
-          GCash details will be provided.
-        </p>
+        <div class="genders_dress_code">
+          <!-- <h3 class="guest-dress-code">Female Principal Sponsors Dress Code</h3> -->
+          <h3>Female Principal Sponsors Wear Inspiration</h3>
+          <div class="cards_dress_code grid grid-cols-4 gap-3">
+            <div class="card-item">
+              <img
+                src="/assets/img/Ninang1.webp"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/Ninang2-removebg-preview.png"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/Ninang3.webp"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+          </div>
+        </div>
+
+        <br />
         <br />
 
-        <div class="accounts flex flex-column content-center items-center">
-          <div>
-            <img src="/assets/img/BPIQRCODE.jpg" alt="BPI QR Code" class="qr_code_img" role="button" tabindex="0"
-              aria-label="Open larger BPI QR Code">
-            <article class="account_details_wrapper">
-              <div class="account_details_item">
-                <span class="super_heading_label">Account Name</span>
-                <h1>Kylle Jionelli Tiamzon</h1>
-              </div>
-
-              <div class="account_details_item">
-                <span class="super_heading_label">BPI Account Number</span>
-                <h2>4159126264</h2>
-              </div>
-            </article>
-
+        <div class="genders_dress_code">
+          <h3 class="guest-dress-code">Guests Dress Code</h3>
+          <h3>Men's Wear Inspiration</h3>
+          <div class="cards_dress_code grid grid-cols-4 gap-3">
+            <div class="card-item">
+              <img
+                src="/assets/img/men_dress_code_1.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/men_polo.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/men_polo1.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/men_polo2.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
           </div>
-
-          <div>
-            <img src="/assets/img/gcash_cropped.jpg" alt="GCash QR Code" class="qr_code_img" role="button" tabindex="0"
-              aria-label="Open larger GCash QR Code">
-            <article class="account_details_wrapper">
-              <div class="account_details_item">
-                <span class="super_heading_label">GCASH Account Name</span>
-                <h1>KY**E JI*****I T.</h1>
-              </div>
-              <div class="account_details_item">
-                <span class="super_heading_label">GCASH Account Number</span>
-                <h1>09277354765</h1>
-              </div>
-            </article>
-
-          </div>
-
         </div>
+        <div class="genders_dress_code">
+          <h3>Womens's Wear Inspiration</h3>
+          <div class="cards_dress_code grid grid-cols-4 gap-3">
+            <div class="card-item">
+              <img
+                src="/assets/img/women_dress_code_2.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
 
-        <!-- Account Name: Kylle Jionelli Tiamzon -->
-
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section dress-codes" id="dresscode">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">WHAT SHOULD WE WEAR?</span>
-        <h2>Dress Code</h2>
-        <div class="detail-meta section">
-          <p class="eyebrow">COLOR PALETTE</p>
-          <h3><strong>CHAMPAGNE, NUDE, KHAKI</strong></h3>
-          <div class="color_circles_wrapper flex items-center content-center gap-3">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="card-item">
+              <img
+                src="/assets/img/FEMALE_COORDINATES.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/FEMALE_COORDINATES1.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/FEMALE_DRESS.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/FEMALE_DRESS1.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/FEMALE_LONG SEEVES.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
+            <div class="card-item">
+              <img
+                src="/assets/img/FEMALE_CHAMPAGNE_COLOR.jpg"
+                alt="Mens dressChampagne, Nude, Kaki"
+              />
+            </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faqs" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">QUESTIONS</span>
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+          <details>
+            <summary>When is the RSVP deadline?</summary>
+            <p class="details-p">
+              Please RSVP by July 17, 2026, so we can have an accurate
+              headcount. You can confirm your attendance on our RSVP section :)
+            </p>
+          </details>
+
+          <details>
+            <summary>Where should I park?</summary>
+            <p class="details-p">
+              There are plenty of free parking inside and near the venue.
+            </p>
+          </details>
+
+          <details>
+            <summary>What will the weather be like?</summary>
+            <p class="details-p">
+              No worries! Rain or shine, we've got you covered. Both the
+              ceremony and the reception will be held indoors, so you can enjoy
+              the celebration comfortably regardless of the weather.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can I bring a date?</summary>
+            <p class="details-p">
+              In order to keep our wedding as intimate as possible, only the
+              guest formally invited on our wedding invitation will be
+              accommodated.
+            </p>
+          </details>
+
+          <details>
+            <summary>What should I wear?</summary>
+            <p class="details-p">Please see our dress code section.</p>
+          </details>
+
+          <details>
+            <summary>
+              Is it okay to take pictures with our phones and cameras during the
+              wedding?
+            </summary>
+            <p class="details-p">
+              Yes! We would love for you to take photos. However, please refrain
+              from taking photos during the wedding ceremony.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="eyebrow footer-brand">K&amp;J</span>
+        <div class="footer-links">
+          <a href="#story">Our Story</a>
+          <a href="#details">The Details</a>
+          <a href="#rsvp">RSVP</a>
+          <a href="#gifts">Gifts</a>
+          <a href="#dresscode">Dress</a>
         </div>
         <p>
-          Please come in semi-formal attire. Gentlemen may wear polo, long
-          sleeves, coat, suit, and slacks. Ladies may wear dresses,
-          coordinates, or long sleeves.
+          © 2026 Design and Build by
+          <a href="https://kenballon.netlify.app/" target="_blank"
+            >Kenneth Ballon</a
+          >
         </p>
       </div>
+    </footer>
 
-      <div class="genders_dress_code">
-        <!-- <h3 class="guest-dress-code">Male Principal Sponsors Dress Code</h3> -->
-        <h3>Male Principal Sponsors Wear Inspiration</h3>
-        <div class="cards_dress_code grid grid-cols-4 gap-3">
-          <div class="card-item">
-            <img src="/assets/img/barong1.webp" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/barong2.webp" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>          
-        </div>
-      </div>
-
-      <div class="genders_dress_code">
-        <!-- <h3 class="guest-dress-code">Female Principal Sponsors Dress Code</h3> -->
-        <h3>Female Principal Sponsors Wear Inspiration</h3>
-        <div class="cards_dress_code grid grid-cols-4 gap-3">
-          <div class="card-item">
-            <img src="/assets/img/Ninang1.webp" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>          
-           <div class="card-item">
-            <img src="/assets/img/Ninang2-removebg-preview.png" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-           <div class="card-item">
-            <img src="/assets/img/Ninang3.webp" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          
-        </div>
-      </div>
-
-      <br/>
-      <br/>
-
-      <div class="genders_dress_code">
-        <h3 class="guest-dress-code">Guests Dress Code</h3>
-        <h3>Men's Wear Inspiration</h3>
-        <div class="cards_dress_code grid grid-cols-4 gap-3">
-          <div class="card-item">
-            <img src="/assets/img/men_dress_code_1.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/men_polo.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/men_polo1.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/men_polo2.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-        </div>
-      </div>
-      <div class="genders_dress_code">
-        <h3>Womens's Wear Inspiration</h3>
-        <div class="cards_dress_code grid grid-cols-4 gap-3">
-          <div class="card-item">
-            <img src="/assets/img/women_dress_code_2.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-
-          <div class="card-item">
-            <img src="/assets/img/FEMALE_COORDINATES.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/FEMALE_COORDINATES1.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/FEMALE_DRESS.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/FEMALE_DRESS1.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/FEMALE_LONG SEEVES.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-          <div class="card-item">
-            <img src="/assets/img/FEMALE_CHAMPAGNE_COLOR.jpg" alt="Mens dressChampagne, Nude, Kaki" />
-          </div>
-        </div>
+    <div class="qr-modal" id="qrModal" aria-hidden="true">
+      <button
+        class="qr-modal__backdrop"
+        type="button"
+        aria-label="Close QR code preview"
+      ></button>
+      <div
+        class="qr-modal__content"
+        role="dialog"
+        aria-modal="true"
+        aria-label="QR code preview"
+      >
+        <button
+          class="qr-modal__close"
+          type="button"
+          aria-label="Close QR code preview"
+        >
+          &times;
+        </button>
+        <img src="" alt="" class="qr-modal__image" id="qrModalImage" />
       </div>
     </div>
-  </section>
 
-  <section class="section faqs" id="faq">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">QUESTIONS</span>
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
-        <details>
-          <summary>When is the RSVP deadline?</summary>
-          <p class="details-p">Please RSVP by ______, so we can have an accurate headcount. You can confirm your attendance on our RSVP section :)</p>
-        </details>
-
-        <details>
-          <summary>Where should I park?</summary>
-          <p class="details-p">There are plenty of free parking inside and near the venue.</p>
-        </details>
-
-        <details>
-          <summary>What will the weather be like?</summary>
-          <p class="details-p">No worries! Rain or shine, we’ve got you covered. Both the ceremony and the reception will be held indoors, so you can enjoy the celebration comfortably regardless of the weather.</p>
-        </details>
-
-        <details>
-          <summary>Can I bring a date?</summary>
-          <p class="details-p">In order to keep our wedding as intimate as possible, only the guest formally invited on our wedding invitation will be accommodated.</p>
-        </details>
-
-        <details>
-          <summary>What should I wear?</summary>
-          <p class="details-p">Please see our dress code section.</p>
-        </details>
-
-        <details>
-          <summary>Is it okay to take pictures with our phones and cameras during the wedding?</summary>
-          <p class="details-p">Yes! We would love for you to take photos. However, please refrain from taking photos during the wedding ceremony.</p>
-        </details>
-
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <span class="eyebrow footer-brand">K&amp;J</span>
-      <div class="footer-links">
-        <a href="#story">Our Story</a>
-        <a href="#details">The Details</a>
-        <a href="#rsvp">RSVP</a>
-        <a href="#gifts">Gifts</a>
-        <a href="#dresscode">Dress</a>
-      </div>
-      <p>
-        © 2026 Design and Build by
-        <a href="https://kenballon.netlify.app/" target="_blank">Kenneth Ballon</a>
-      </p>
-    </div>
-  </footer>
-
-  <div class="qr-modal" id="qrModal" aria-hidden="true">
-    <button class="qr-modal__backdrop" type="button" aria-label="Close QR code preview"></button>
-    <div class="qr-modal__content" role="dialog" aria-modal="true" aria-label="QR code preview">
-      <button class="qr-modal__close" type="button" aria-label="Close QR code preview">&times;</button>
-      <img src="" alt="" class="qr-modal__image" id="qrModalImage">
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
