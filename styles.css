@@ -297,6 +297,14 @@ h3 {
   line-height: 1.3;
 }
 
+.hashtag {
+  color: #ffffff;
+  font-family: var(--font-brand);
+  font-size: 20px;
+  line-height: 1.3;
+  font-style: italic;
+}
+
 .primary-button,
 .submit-button {
   font-size: 12px;
