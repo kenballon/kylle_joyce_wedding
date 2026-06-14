@@ -138,6 +138,22 @@ h3 {
   height: 100%;
 }
 
+.border-radius-1{
+  border-radius: 0.25rem;
+}
+
+.border-radius-2{
+  border-radius: 0.5rem;
+}
+
+.border-radius-3{
+  border-radius: 0.75rem;
+}
+
+.border-radius-4{
+  border-radius: 1rem;
+}
+
 .brand {
   color: var(--primary);
   cursor: pointer;
@@ -168,6 +184,10 @@ h3 {
 
 .nav-links a:hover {
   color: var(--primary);
+}
+
+.my-4{
+  margin-block: 1rem;
 }
 
 .menu-button {
@@ -807,6 +827,10 @@ h3 {
     width: 100%;
     height: 100%;
   }
+}
+
+.new-card{
+  max-width: 600px;
 }
 
 .detail-meta.section {
