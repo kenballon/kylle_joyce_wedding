@@ -205,11 +205,9 @@ h3 {
 }
 
 .hero-gradient {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(0, 0, 0, 0.4) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.4) 100%);
 }
 
 .hero-content {
@@ -365,6 +363,11 @@ h3 {
   width: 100%;
   height: 600px;
   object-fit: cover;
+
+  @media (max-width: 767px) {
+    height: unset;
+    object-fit: contain;
+  }
 }
 
 .image-outline {
@@ -375,6 +378,10 @@ h3 {
   height: 100%;
   border: 1px solid rgba(0, 109, 68, 0.2);
   transition: transform 300ms ease;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .film-section {
@@ -461,7 +468,7 @@ h3 {
   margin-bottom: 16px;
 }
 
-.detail-card > p {
+.detail-card>p {
   margin-bottom: 24px;
   color: var(--on-surface-variant);
   font-size: 16px;
@@ -568,7 +575,7 @@ h3 {
       }
 
       .contact_number_wrapper {
-        > div {
+        >div {
           span {
             font-size: 1rem;
 
@@ -818,7 +825,7 @@ h3 {
 .color_circles_wrapper {
   padding-block: 1.5rem;
 
-  > div {
+  >div {
     width: 40px;
     height: 40px;
     border-radius: 100%;
